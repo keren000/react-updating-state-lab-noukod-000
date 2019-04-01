@@ -3,8 +3,8 @@ import React from 'react';
 
 export default class DigitalClicker extends React.Component {
 <<<<<<< HEAD
-  constructor(state) {
-    super(state);
+  constructor(props) {
+    super(props);
     
     this.state = { timesClicked: 0 }
   }
